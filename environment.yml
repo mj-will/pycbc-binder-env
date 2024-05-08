@@ -19,4 +19,5 @@ dependencies:
   - ipython
   - matplotlib
   - pip:
-    - git+https://github.com/mikekatz04/BBHx.git@dd4c1f5b5a180ca10e699bd0317238be7480f28b
+    - git+https://github.com/mikekatz04/BBHx.git@4fff509
+    - git+git+https://github.com/gwastro/BBHX-waveform-model.git
