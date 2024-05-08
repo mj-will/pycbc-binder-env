@@ -1,0 +1,22 @@
+name: pycbc-environment
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pycbc
+  - nbgitpuller
+  - ipykernel
+  - gcc_linux-64
+  - gxx_linux-64
+  - gsl
+  - lapack=3.6.1
+  - numpy
+  - scipy
+  - Cython
+  - jupyter
+  - ipython
+  - matplotlib
+  - pip:
+    - git+https://github.com/mikekatz04/BBHx.git@dd4c1f5b5a180ca10e699bd0317238be7480f28b
